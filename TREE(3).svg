@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1618">
+<defs>
+<line id="has" fill="none" x1="0" y1="0" stroke-linecap="butt" stroke-width="2" stroke="black" x2="0" y2="41"/>
+<circle id="mo" cx="0" cy="0" stroke="none" r="8"/>
+<g id="mohas"><use href="#has"/><use href="#mo"/></g>
+
+<g id="2ndhas"><use href="#has"/><use id="2nd" href="#mo" fill="#c26bce"/></g>
+<g id="3rdhas"><use href="#has"/><use id="3rd" href="#mo" fill="orange"/></g>
+<use id="root2nd" href="#2nd" transform="translate(0,41)"/>
+<use id="root3rd" href="#3rd" transform="translate(0,41)"/>
+<use id="rootmo" href="#mo" transform="translate(0,41)"/>
+
+<g id="x33" fill="orange"><g id="xmm"><use href="#mohas" transform="rotate(-16,0,33)"/><use href="#mohas" transform="rotate(16,0,33)"/></g></g>
+<g id="x333" fill="orange"><g id="xmmm"><use href="#xmm" transform="rotate(-16,0,33)"/><use href="#mohas" transform="rotate(32,0,33)"/></g></g>
+<g id="x33y3" fill="orange"><g id="xmmym"><use href="#xmm"/><use href="#rootmo"/></g></g>
+<g id="x33y3has" fill="orange"><g id="xmmymhas"><use href="#has" transform="translate(0,41)"/><use href="#xmmym"/></g></g>
+
+<g id="y33" fill="orange"><g id="ymm"><use href="#mohas"/><use href="#rootmo"/></g></g>
+<g id="y33has" fill="orange"><g id="ymmhas"><use href="#has" transform="translate(0,41)"/><use href="#ymm"/></g></g>
+<g id="y333" fill="orange"><g id="ymmm"><use href="#ymmhas"/><use href="#rootmo" transform="translate(0,41)"/></g></g>
+<g id="y333has" fill="orange"><g id="ymmmhas"><use href="#has" transform="translate(0,82)"/><use href="#ymmm"/></g></g>
+<g id="y3333" fill="orange"><g id="ymmmm"><use href="#ymmmhas"/><use href="#rootmo" transform="translate(0,82)"/></g></g>
+<g id="y3333has" fill="orange"><g id="ymmmmhas"><use href="#has" transform="translate(0,123)"/><use href="#ymmmm"/></g></g>
+
+<g id="y332"><use href="#y33has"/><use href="#root2nd" transform="translate(0,41)"/></g>
+<g id="y332has"><use href="#has" transform="translate(0,82)"/><use href="#y332"/></g>
+<g id="y3332"><use href="#y333has"/><use href="#root2nd" transform="translate(0,82)"/></g>
+<g id="y3332has"><use href="#has" transform="translate(0,123)"/><use href="#y3332"/></g>
+
+<g id="y33323"><use href="#y3332has"/><use href="#root3rd" transform="translate(0,123)"/></g>
+<g id="y33323has"><use href="#has" transform="translate(0,164)"/><use href="#y33323"/></g>
+
+</defs>
+
+<!-- background -->
+<rect x="0" y="0" stroke="none" fill="white" width="1000" height="1618"/>
+
+<a href="https://creativecommons.org/licenses/by-nd/4.0"><text x="22" y="90" font-family="monospace" font-size="12">Under Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</text></a>
+
+<!-- 6 -->
+<g transform="translate(0,180)">
+
+<use href="#mo" x="146" y="103" fill="red"/>
+<g transform="translate(292,83)"><use href="#2ndhas"/><use href="#root2nd"/></g>
+<g transform="translate(438,83)"><use href="#x33"/><use href="#root2nd"/></g>
+<g transform="translate(584,83)"><use href="#x33y3has"/><use href="#root2nd" transform="translate(0,41)"/></g>
+
+<g transform="translate(730,20)"><g id="y33332"><use href="#y3333has"/><use href="#root2nd" transform="translate(0,123)"/></g></g>
+
+<g transform="translate(878,0)"><use href="#y33323has"/><use href="#root3rd" transform="translate(0,164)"/></g>
+
+</g>
+
+<!-- 6 -->
+<g transform="translate(0,450)">
+
+<g transform="translate(146,0)">
+<g transform="translate(0,123)">
+<use href="#2ndhas" transform="rotate(-32,0,41)"/><use href="#2ndhas" transform="rotate(32,0,41)"/>
+</g><use href="#y33323"/></g>
+
+<g transform="translate(292,0)">
+<g transform="translate(0,123)">
+<use href="#x33" transform="rotate(-40,0,41)"/><use href="#2ndhas" transform="rotate(40,0,41)"/>
+</g><use href="#y33323"/></g>
+
+<g transform="translate(438,0)">
+<g transform="translate(0,123)">
+<use href="#x33" transform="rotate(-40,0,41)"/><use href="#x33" transform="rotate(40,0,41)"/>
+</g><use href="#y33323"/></g>
+
+<g transform="translate(584,0)">
+<g transform="translate(0,82)"><use href="#y33has" transform="rotate(-64,0,82)"/><use href="#y33has" transform="rotate(-32,0,82)"/>
+<use href="#3rdhas" transform="translate(0,41) rotate(32,0,41)"/>
+</g><use href="#y33323"/></g>
+
+<g transform="translate(730,0)">
+<g transform="translate(0,82) rotate(-64,0,82)"><use href="#x333"/><use href="#3rdhas" transform="translate(0,41)"/></g>
+<use href="#x33" transform="translate(0,123) rotate(48,0,41)"/><use href="#y33323"/></g>
+
+<g transform="translate(878,0)"><g transform="rotate(-20,0,164)"><use href="#y3332has"/></g><g transform="rotate(20,0,164)"><use href="#y3332has"/></g><use href="#root3rd" transform="translate(0,123)"/></g>
+
+</g>
+
+<!-- 6 -->
+<g transform="translate(0,679)">
+
+<g transform="translate(106,82)"><text id="mas" x="0" y="0" font-family="monospace" font-size="40">……</text></g>
+
+<g transform="translate(292,0)"><use href="#3rdhas" transform="translate(0,123) rotate(-32,0,41)"/>
+<use id="daoy33332" transform="rotate(180,0,82)" href="#y33332"/></g>
+
+<g transform="translate(438,0)"><use href="#x33y3has" transform="translate(0,82) rotate(-32,0,82)"/>
+<use id="daoy33323" href="#y33323" transform="rotate(180,0,82)"/></g>
+
+<g transform="translate(584,0)"><use href="#daoy33332"/></g>
+
+<g transform="translate(730,0)"><use href="#y33has" transform="translate(0,82) rotate(-32,0,82)"/><use href="#daoy33323"/></g>
+
+<g transform="translate(878,0)">
+<g transform="translate(0,41)"><use href="#y332has" transform="rotate(-32,0,123)"/>
+<use href="#3rdhas" transform="translate(0,82) rotate(32,0,41)"/>
+</g>
+<g id="y33233"><use href="#y332has"/><use href="#y33" transform="translate(0,123)"/></g></g>
+
+</g>
+
+<!-- 6 -->
+<g transform="translate(0,908)">
+
+<g transform="translate(146,0)">
+<g transform="rotate(-32,0,164)"><use href="#3rdhas" transform="translate(0,82)"/><use href="#2ndhas" transform="translate(0,123)"/></g><use href="#y33323"/></g>
+
+<g transform="translate(292,0)"><g transform="translate(0,123)"><use href="#2ndhas" transform="rotate(-32,0,41)"/><use href="#3rdhas" transform="rotate(32,0,41)"/></g><use href="#daoy33323"/></g>
+
+<g transform="translate(438,0)">
+<g transform="translate(0,82)">
+<g transform="rotate(-32,0,82)"><use href="#2ndhas"/><use href="#3rdhas" transform="translate(0,41)"/></g>
+<use href="#3rdhas" transform="translate(0,41) rotate(32,0,41)"/>
+</g><use href="#y33323"/></g>
+
+<g transform="translate(584,0)">
+<use href="#2ndhas" transform="translate(0,123) rotate(-32,0,41)"/>
+<use href="#x33y3has" transform="translate(0,82) rotate(32,0,82)"/>
+<use href="#y33233"/></g>
+
+<g transform="translate(730,41)"><use href="#2ndhas" transform="translate(0,82) rotate(-32,0,41)"/><use href="#y3332"/></g>
+
+<g transform="translate(878,0)">
+<use href="#y332has" transform="translate(0,41) rotate(-32,0,123)"/>
+<use href="#y33233"/></g>
+
+</g>
+
+<!-- 5 -->
+<g transform="translate(0,1137)">
+
+<g transform="translate(170,0)"><g transform="translate(0,41)"><use href="#y333has" transform="rotate(-32,0,123)"/><use href="#y333has" transform="rotate(32,0,123)"/></g><use href="#y33323"/></g>
+
+<g transform="translate(340,0)"><g transform="translate(0,82)"><use href="#x33y3has" transform="rotate(-48,0,82)"/><use href="#x33y3has" transform="rotate(48,0,82)"/></g><use href="#y33323"/></g>
+
+<g transform="translate(510,0)"><use href="#y3333has" transform="rotate(40,0,164)"/><use href="#y33323"/></g>
+
+<g transform="translate(680,0)">
+<g transform="translate(0,41) rotate(50,0,123)">
+<g id="x22222" fill="#c26bce"><g id="xmmmmm"><use href="#xmmm" transform="rotate(-32,0,41)"/><use href="#xmm" transform="rotate(48,0,41)"/></g></g>
+<use href="#3rdhas" transform="translate(0,41)"/>
+<use href="#3rdhas" transform="translate(0,82)"/></g><use href="#y33323"/></g>
+
+<g transform="translate(850,0)">
+<g transform="translate(0,82) rotate(80,0,82)">
+<g id="x3333" fill="orange"><g id="xmmmm"><use href="#xmmm" transform="rotate(-16,0,33)"/><use href="#mohas" transform="rotate(48,0,33)"/></g></g>
+<use href="#3rdhas" transform="translate(0,41)"/>
+<use href="#2ndhas" transform="translate(0,41) rotate(-32,0,41)"/></g>
+<use href="#y33323"/></g>
+
+</g>
+
+<!-- 2 -->
+<g transform="translate(0,1366)">
+
+<g transform="translate(256,0)">
+<g transform="translate(0,82) rotate(64,0,82)">
+<use href="#x333"/>
+<use href="#3rdhas" transform="translate(0,41)"/>
+<use href="#2ndhas" transform="translate(0,41) rotate(-32,0,41)"/></g>
+<use href="#y33323"/></g>
+
+<g transform="translate(512,0)"><g transform="translate(0,41) rotate(50,0,123)"><use id="x2222" href="#xmmmm" fill="#c26bce"/>
+<use href="#3rdhas" transform="translate(0,41)"/><use href="#3rdhas" transform="translate(0,82)"/></g>
+<use href="#y33323"/></g>
+
+<use href="#mas" transform="translate(760,82)"/>
+</g>
+</svg>
